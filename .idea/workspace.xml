@@ -26,7 +26,7 @@
       <file leaf-file-name="Test.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MessageConsumer/Test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="799" selection-end="799" vertical-scroll-proportion="-11.5" vertical-offset="92" max-vertical-offset="1003">
+            <state line="28" column="0" selection-start="799" selection-end="799" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1088">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="InterfaceController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MessageFrontend/InterfaceController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="37" selection-start="422" selection-end="446" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="425">
+            <state line="20" column="37" selection-start="422" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="TradeController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MessageConsumer/TradeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="65" selection-start="2688" selection-end="2688" vertical-scroll-proportion="-23.923077" vertical-offset="959" max-vertical-offset="1785">
+            <state line="99" column="65" selection-start="2688" selection-end="2688" vertical-scroll-proportion="0.0" vertical-offset="1683" max-vertical-offset="1887">
               <folding />
             </state>
           </provider>
@@ -53,36 +53,34 @@
       <file leaf-file-name="BasicFunctions.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Shared/BasicFunctions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="31" selection-start="490" selection-end="490" vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="595">
-              <folding>
-                <element signature="e#6#91#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Server.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MessageProcesor/Server/Server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+            <state line="28" column="31" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="27" selection-start="46" selection-end="46" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="187">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.twig" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Main.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MessageFrontend/template/Main.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="31" selection-start="478" selection-end="478" vertical-scroll-proportion="0.21791768" vertical-offset="58" max-vertical-offset="1343">
+            <state line="14" column="31" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0" vertical-offset="58" max-vertical-offset="1343">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MessageProcesor/Server/config.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Shared/Config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="16" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0945946" vertical-offset="0" max-vertical-offset="1258">
               <folding />
             </state>
           </provider>
@@ -91,7 +89,7 @@
       <file leaf-file-name="CliActionResolver.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Shared/CliActionResolver.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="74" selection-start="627" selection-end="639" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="714">
+            <state line="19" column="74" selection-start="627" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="799">
               <folding />
             </state>
           </provider>
@@ -100,7 +98,7 @@
       <file leaf-file-name="Trades.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MessageProcesor/Models/Trades.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="0" selection-start="1593" selection-end="1593" vertical-scroll-proportion="-19.346153" vertical-offset="483" max-vertical-offset="1564">
+            <state line="63" column="0" selection-start="1593" selection-end="1593" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="1649">
               <folding>
                 <marker date="1502049800579" expanded="true" signature="1044:1380" placeholder="SELECT t.id,..trades..." />
                 <marker date="1502049800579" expanded="true" signature="1623:2007" placeholder="SELECT t.id,..trades..." />
@@ -114,7 +112,7 @@
       <file leaf-file-name="API.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MessageProcesor/API.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="24" selection-start="686" selection-end="686" vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="782">
+            <state line="32" column="24" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="867">
               <folding />
             </state>
           </provider>
@@ -153,7 +151,6 @@
         <option value="$PROJECT_DIR$/MessageProcesor/Server.js" />
         <option value="$PROJECT_DIR$/MessageProcesor/Server/package.json" />
         <option value="$PROJECT_DIR$/MessageProcesor/Server/index.html" />
-        <option value="$PROJECT_DIR$/Shared/Config.php" />
         <option value="$PROJECT_DIR$/Shared/ActionResolver.php" />
         <option value="$PROJECT_DIR$/Shared/ModRewriteRegexpActionResolver.php" />
         <option value="$PROJECT_DIR$/MessageFrontend/InterfaceController.php" />
@@ -167,6 +164,7 @@
         <option value="$PROJECT_DIR$/MessageConsumer/TradeController.php" />
         <option value="$PROJECT_DIR$/MessageProcesor/Models/Trades.php" />
         <option value="$PROJECT_DIR$/MessageFrontend/template/Main.twig" />
+        <option value="$PROJECT_DIR$/Shared/Config.php" />
       </list>
     </option>
   </component>
@@ -412,7 +410,6 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977098" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1359375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -423,10 +420,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977098" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -448,25 +446,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/MessageProcesor/Models/CurrencyCodes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="25" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="612">
-          <folding />
-        </state>
+        <state line="21" column="25" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="612" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageProcesor/Models/_Base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="41" selection-start="2431" selection-end="2431" vertical-scroll-proportion="0.0" vertical-offset="1751" max-vertical-offset="1921">
-          <folding>
-            <marker date="1502044368241" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-          </folding>
-        </state>
+        <state line="103" column="41" selection-start="2431" selection-end="2431" vertical-scroll-proportion="0.0" vertical-offset="1751" max-vertical-offset="1921" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <folding />
-        </state>
+        <state line="21" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Shared/NamespaceLoader.php">
@@ -488,18 +478,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Shared/ModRewriteRegexpActionResolver.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="19" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="306">
-          <folding>
-            <element signature="e#6#91#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="10" column="19" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="306" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <folding />
-        </state>
+        <state line="21" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Shared/NamespaceLoader.php">
@@ -521,9 +505,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <folding />
-        </state>
+        <state line="21" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Shared/NamespaceLoader.php">
@@ -560,134 +542,178 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Shared/Database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="44" selection-start="465" selection-end="465" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
+        <state line="26" column="44" selection-start="465" selection-end="465" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="561" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Shared/ISO3166_1_ALPHA2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="288" column="12" selection-start="8583" selection-end="8598" vertical-scroll-proportion="-41.846153" vertical-offset="3808" max-vertical-offset="5066">
-          <folding>
-            <element signature="e#6#91#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="288" column="12" selection-start="8583" selection-end="8598" vertical-scroll-proportion="-41.846153" vertical-offset="3808" max-vertical-offset="5066" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Shared/ISO4217.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="202" column="27" selection-start="6750" selection-end="6750" vertical-scroll-proportion="1.0675676" vertical-offset="2091" max-vertical-offset="3604">
-          <folding>
-            <element signature="e#6#91#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="202" column="27" selection-start="6750" selection-end="6750" vertical-scroll-proportion="1.0675676" vertical-offset="2091" max-vertical-offset="3604" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageProcesor/Entities/_Base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="151" selection-end="151" vertical-scroll-proportion="0.067567565" vertical-offset="0" max-vertical-offset="1258">
-          <folding />
-        </state>
+        <state line="10" column="0" selection-start="151" selection-end="151" vertical-scroll-proportion="0.067567565" vertical-offset="0" max-vertical-offset="1258" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageProcesor/Models/CountryCodes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="25" selection-start="382" selection-end="382" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="527">
-          <folding />
-        </state>
+        <state line="21" column="25" selection-start="382" selection-end="382" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="527" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageProcesor/Models/CurrencyCodes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="25" selection-start="377" selection-end="377" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="527">
-          <folding />
-        </state>
+        <state line="21" column="25" selection-start="377" selection-end="377" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="527" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageProcesor/Entities/Trade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="825" selection-end="825" vertical-scroll-proportion="3.9230769" vertical-offset="1037" max-vertical-offset="5508">
-          <folding />
-        </state>
+        <state line="61" column="0" selection-start="825" selection-end="825" vertical-scroll-proportion="3.9230769" vertical-offset="1037" max-vertical-offset="5508" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageProcesor/Entities/CountryCodes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="39" selection-start="327" selection-end="327" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="918">
-          <folding />
-        </state>
+        <state line="19" column="39" selection-start="327" selection-end="327" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="918" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageProcesor/Entities/CurrencyCodes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="7" selection-start="333" selection-end="333" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="918">
-          <folding />
-        </state>
+        <state line="21" column="7" selection-start="333" selection-end="333" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="918" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="50" selection-start="230" selection-end="230" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="646">
-          <folding />
-        </state>
+        <state line="12" column="50" selection-start="230" selection-end="230" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="646" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageProcesor/Server/node_modules/socket.io/lib/client.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4386">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4386" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageProcesor/Server/node_modules/socket.io/lib/socket.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9588">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9588" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="45" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-          <folding />
-        </state>
+        <state line="3" column="45" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageProcesor/Server/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="64" selection-start="119" selection-end="119" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="238">
-          <folding>
-            <marker date="1502035027306" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;message-processor&quot;...}" />
-          </folding>
-        </state>
+        <state line="3" column="64" selection-start="119" selection-end="119" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="238" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Shared/ActionResolver.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="0" selection-start="1332" selection-end="1332" vertical-scroll-proportion="-19.038462" vertical-offset="423" max-vertical-offset="1275">
-          <folding />
-        </state>
+        <state line="59" column="0" selection-start="1332" selection-end="1332" vertical-scroll-proportion="-19.038462" vertical-offset="423" max-vertical-offset="1275" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Shared/ModRewriteRegexpActionResolver.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="70" selection-start="303" selection-end="303" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="833">
-          <folding>
-            <element signature="e#6#91#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="14" column="70" selection-start="303" selection-end="303" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="833" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageProcesor/Server/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1284">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1284" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageFrontend/ErrorPagesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="36" selection-start="279" selection-end="288" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="408">
+        <state line="18" column="36" selection-start="279" selection-end="288" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="408" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="178" selection-end="178" vertical-scroll-proportion="0.1440678" vertical-offset="0" max-vertical-offset="826" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/Template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="7" selection-start="272" selection-end="272" vertical-scroll-proportion="7.4615383" vertical-offset="449" max-vertical-offset="1275" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="27" selection-start="46" selection-end="46" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="187" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessageProcesor/Server/Server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessageProcesor/Models/_Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="19" selection-start="372" selection-end="372" vertical-scroll-proportion="-0.58474576" vertical-offset="721" max-vertical-offset="1955" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessageFrontend/InterfaceController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="37" selection-start="422" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/BasicFunctions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="31" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/CliActionResolver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="74" selection-start="627" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessageConsumer/Test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="799" selection-end="799" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1088">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessageConsumer/TradeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="65" selection-start="2688" selection-end="2688" vertical-scroll-proportion="0.0" vertical-offset="1683" max-vertical-offset="1887">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessageProcesor/API.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="24" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessageProcesor/Models/Trades.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="0" selection-start="1593" selection-end="1593" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="1649">
+          <folding>
+            <marker date="1502049800579" expanded="true" signature="1044:1380" placeholder="SELECT t.id,..trades..." />
+            <marker date="1502049800579" expanded="true" signature="1623:2007" placeholder="SELECT t.id,..trades..." />
+            <marker date="1502049800579" expanded="true" signature="1623:2008" placeholder="SELECT t.id,..trades..." />
+            <marker date="1502049800579" expanded="true" signature="1623:2106" placeholder="SELECT t.id,..trades..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessageFrontend/template/Main.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="31" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0" vertical-offset="58" max-vertical-offset="1343">
           <folding />
         </state>
       </provider>
@@ -701,107 +727,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Shared/Config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="44" selection-start="128" selection-end="137" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="629">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="178" selection-end="178" vertical-scroll-proportion="0.1440678" vertical-offset="0" max-vertical-offset="826">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shared/Template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="7" selection-start="272" selection-end="272" vertical-scroll-proportion="7.4615383" vertical-offset="449" max-vertical-offset="1275">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="27" selection-start="46" selection-end="46" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MessageProcesor/Server/Server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MessageProcesor/Models/_Base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="19" selection-start="372" selection-end="372" vertical-scroll-proportion="-0.58474576" vertical-offset="721" max-vertical-offset="1955">
-          <folding>
-            <marker date="1502044368241" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MessageFrontend/InterfaceController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="37" selection-start="422" selection-end="446" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shared/BasicFunctions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="31" selection-start="490" selection-end="490" vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="595">
-          <folding>
-            <element signature="e#6#91#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shared/CliActionResolver.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="74" selection-start="627" selection-end="639" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MessageConsumer/Test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="799" selection-end="799" vertical-scroll-proportion="-11.5" vertical-offset="92" max-vertical-offset="1003">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MessageConsumer/TradeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="65" selection-start="2688" selection-end="2688" vertical-scroll-proportion="-23.923077" vertical-offset="959" max-vertical-offset="1785">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MessageProcesor/API.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="24" selection-start="686" selection-end="686" vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="782">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MessageProcesor/Models/Trades.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="0" selection-start="1593" selection-end="1593" vertical-scroll-proportion="-19.346153" vertical-offset="483" max-vertical-offset="1564">
-          <folding>
-            <marker date="1502049800579" expanded="true" signature="1044:1380" placeholder="SELECT t.id,..trades..." />
-            <marker date="1502049800579" expanded="true" signature="1623:2007" placeholder="SELECT t.id,..trades..." />
-            <marker date="1502049800579" expanded="true" signature="1623:2008" placeholder="SELECT t.id,..trades..." />
-            <marker date="1502049800579" expanded="true" signature="1623:2106" placeholder="SELECT t.id,..trades..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MessageFrontend/template/Main.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="31" selection-start="478" selection-end="478" vertical-scroll-proportion="0.21791768" vertical-offset="58" max-vertical-offset="1343">
+        <state line="12" column="16" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0945946" vertical-offset="0" max-vertical-offset="1258">
           <folding />
         </state>
       </provider>
