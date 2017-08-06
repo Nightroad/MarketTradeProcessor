@@ -1,0 +1,116 @@
+<pre>object(PDOException)#5 (8) {
+  ["message":protected]=>
+  string(81) "SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)"
+  ["string":"Exception":private]=>
+  string(0) ""
+  ["code":protected]=>
+  int(1045)
+  ["file":protected]=>
+  string(78) "C:\Users\Arch Gentoo\PhpstormProjects\MarketTradeProcessor\Shared\Database.php"
+  ["line":protected]=>
+  int(26)
+  ["trace":"Exception":private]=>
+  array(6) {
+    [0]=>
+    array(6) {
+      ["file"]=>
+      string(78) "C:\Users\Arch Gentoo\PhpstormProjects\MarketTradeProcessor\Shared\Database.php"
+      ["line"]=>
+      int(26)
+      ["function"]=>
+      string(11) "__construct"
+      ["class"]=>
+      string(3) "PDO"
+      ["type"]=>
+      string(2) "->"
+      ["args"]=>
+      array(3) {
+        [0]=>
+        string(48) "mysql:host=localhost;dbname=MarketTradeProcessor"
+        [1]=>
+        string(0) ""
+        [2]=>
+        string(0) ""
+      }
+    }
+    [1]=>
+    array(6) {
+      ["file"]=>
+      string(93) "C:\Users\Arch Gentoo\PhpstormProjects\MarketTradeProcessor\MessageProcesor\Entities\_Base.php"
+      ["line"]=>
+      int(31)
+      ["function"]=>
+      string(6) "getPDO"
+      ["class"]=>
+      string(36) "MarketTradeProcessor\Shared\Database"
+      ["type"]=>
+      string(2) "::"
+      ["args"]=>
+      array(0) {
+      }
+    }
+    [2]=>
+    array(6) {
+      ["file"]=>
+      string(94) "C:\Users\Arch Gentoo\PhpstormProjects\MarketTradeProcessor\MessageConsumer\TradeController.php"
+      ["line"]=>
+      int(45)
+      ["function"]=>
+      string(4) "save"
+      ["class"]=>
+      string(51) "MarketTradeProcessor\MessageProcesor\Entities\_Base"
+      ["type"]=>
+      string(2) "->"
+      ["args"]=>
+      array(0) {
+      }
+    }
+    [3]=>
+    array(4) {
+      ["function"]=>
+      string(7) "consume"
+      ["class"]=>
+      string(52) "MarketTradeProcessor\MessageConsumer\TradeController"
+      ["type"]=>
+      string(2) "::"
+      ["args"]=>
+      array(0) {
+      }
+    }
+    [4]=>
+    array(4) {
+      ["file"]=>
+      string(84) "C:\Users\Arch Gentoo\PhpstormProjects\MarketTradeProcessor\Shared\ActionResolver.php"
+      ["line"]=>
+      int(63)
+      ["function"]=>
+      string(14) "call_user_func"
+      ["args"]=>
+      array(1) {
+        [0]=>
+        string(62) "\MarketTradeProcessor\MessageConsumer\TradeController::consume"
+      }
+    }
+    [5]=>
+    array(6) {
+      ["file"]=>
+      string(68) "C:\Users\Arch Gentoo\PhpstormProjects\MarketTradeProcessor\index.php"
+      ["line"]=>
+      int(36)
+      ["function"]=>
+      string(13) "handleRequest"
+      ["class"]=>
+      string(42) "MarketTradeProcessor\Shared\ActionResolver"
+      ["type"]=>
+      string(2) "::"
+      ["args"]=>
+      array(0) {
+      }
+    }
+  }
+  ["previous":"Exception":private]=>
+  NULL
+  ["errorInfo"]=>
+  NULL
+}
+</pre>
