@@ -14,13 +14,10 @@ class Test {
     public static function feed()
     {
 
-        $jsonData = '{"userId": "134256", "currencyFrom": "EUR", "currencyTo": "GBP", "amountSell": 1000,' .
-            '"amountBuy": 747.10, "rate": 0.7471, "timePlaced" : "24-JAN-15 10:27:44", "originatingCountry" : "FR"}';
-
         $currencies = array('EUR', 'GBP', 'CHF', 'USD', 'PLN', 'RUB', 'HKD');
         $countries = array('PL', 'GB', 'US', 'DE', 'BG', 'CA', 'DK', 'ES', 'GR');
 
-        for ($i = 0; $i < 100; $i++)
+        for ($i = 0; $i < 5; $i++)
         {
 
             $sell = round(rand(1000, 900000) / 500, 2);
@@ -38,6 +35,9 @@ class Test {
                 'originatingCountry' => $countries[array_rand($countries)],
             );
             $jsonData = json_encode($jsonDataArray);
+
+//            $jsonData = '{"userId": "134256", "currencyFrom": "EUR", "currencyTo": "GBP", "amountSell": 1000,' .
+//                '"amountBuy": 747.10, "rate": 0.7471, "timePlaced" : "24-JAN-15 10:27:44", "originatingCountry" : "FR"}';
 
             $curl = curl_init('http://currencyfair.local.pl/consumer');
             curl_setopt_array($curl, array(

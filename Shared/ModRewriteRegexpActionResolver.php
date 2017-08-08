@@ -12,9 +12,10 @@ class ModRewriteRegexpActionResolver extends ActionResolver
 {
 
     private static $mapping = array(
-        '#^/socket\.io\.js#' => '\\MarketTradeProcessor\\MessageProcesor\\API::serveSocketIO',
+//        '#^/socket\.io\.js#' => '\\MarketTradeProcessor\\MessageProcesor\\API::serveSocketIO',
         '#^/consumer#' => '\\MarketTradeProcessor\\MessageConsumer\\TradeController::consume',
         '#^/index\.html#si' => '\\MarketTradeProcessor\\MessageFrontend\\InterfaceController::home',
+        '#^/ajax/trades#' => '\\MarketTradeProcessor\\MessageProcesor\\API::serveTrades',
     );
 
     public function getActionByAddress($address)

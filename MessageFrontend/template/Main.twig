@@ -3,66 +3,58 @@
 <head>
 <title>{{ title }}</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" type="text/css" href="/static/styles.css" />
 
-<!-- <script src="/static/MooTools-Core-1.6.0-compressed.js"></script> -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.min.js"></script>
-<script src="/socket.io.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/extjs/resources/css/ext-all-gray-debug.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/extjs.css" />
+    <link rel="stylesheet" type="text/css" href="/static/styles.css" />
+
+    <script type="text/javascript" src="/static/extjs/ext-all.js"></script>
 
 </head>
 <body>
 
-<div id="root" style="width: 2000px; height: 400px;">
-    <canvas id="myChart"></canvas>
-</div>
+<script type="text/javascript">
+Ext.onReady(function(){
 
-
-
-<script>
-window.addEventListener('load', function(){
-    var socket = io('{{ message_processor_server }}');
-    var ctx = document.getElementById("myChart");
-
-    var dailyTradesCountChart = new Chart(ctx, {
-        type: 'bar',
-        data: {
-            datasets: [{
-                label: 'Trade amount'
-            }]
-        },
-        options: {
-            scales: {
-                yAxes: [{
-                    ticks: {
-                        beginAtZero:true
-                    }
-                }]
+    var messageStore = Ext.create('Ext.data.Store', {
+        proxy: {
+            type: 'ajax',
+            url: '/ajax/trades',
+            reader: {
+                type: 'json',
+                root: 'data',
+                idProperty: 'id',
+                totalProperty: 'total'
             }
-        }
+        },
+        fields: [
+            'id', 'userId', 'currencyFrom', 'currencyTo',
+            'timePlaced', 'tradeCurrency', 'overview'
+        ],
+        autoLoad: true,
+        pageSize: 50,
+        remoteSort: true
     });
 
-    function clearChart(chart){
-        chart.data.labels.pop();
-        for (i in chart.data.datasets)
-            chart.data.datasets[i].data.pop();
-    }
-
-    socket.on('foo', function(msg){
-        clearChart(dailyTradesCountChart);
-
-        for (i in msg){
-            if (dailyTradesCountChart.data.datasets.length == 0){
-
-            }
-
-            dailyTradesCountChart.data.labels.push(msg[i].currency);
-            for (j in dailyTradesCountChart.data.datasets){
-                dailyTradesCountChart.data.datasets[j].data.push(msg[i].trades);
-            }
-        }
-
-        dailyTradesCountChart.update();
-
+    Ext.create('Ext.grid.Panel', {
+        title: 'Consumed messages',
+        store: messageStore,
+        columns: [
+            { text: 'User ID', dataIndex: 'userId', width: 60 },
+            { text: 'Selling currency', dataIndex: 'currencyFrom'},
+            { text: 'Buying currency', dataIndex: 'currencyTo'},
+            { text: 'Offer placed', dataIndex: 'timePlaced', width: 150},
+            { text: 'Overview', dataIndex: 'overview', flex: 1},
+        ],
+        dockedItems: [{
+            xtype: 'pagingtoolbar',
+            store: messageStore,
+            dock: 'bottom',
+            displayInfo: true
+        }],
+        width: 1000,
+        height: 500,
+        renderTo: Ext.getBody()
     });
 
 });

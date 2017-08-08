@@ -10,7 +10,7 @@ if($_SERVER['RUN_ENVIRONMENT'] == 'developer')
 {
     $db_link = 'mysql:host=localhost;dbname=MarketTradeProcessor';
     $db_user = 'root';
-    $db_pass = '';
+    $db_pass = 'jajamikurwaomate';
 
     $debug_level = 1;
     $twig_cache_enable = 0;

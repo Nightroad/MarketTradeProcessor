@@ -9,6 +9,7 @@
 namespace MarketTradeProcessor\MessageProcesor\Models;
 
 use MarketTradeProcessor\MessageProcesor\Entities\_Base as Base_Entity;
+use MarketTradeProcessor\Shared\Database;
 
 class Trades extends _Base {
 
@@ -55,6 +56,7 @@ class Trades extends _Base {
 
         $stmt = $pdo->prepare($sql);
         $stmt->execute();
+
         return $stmt->fetchAll(\PDO::FETCH_ASSOC);
     }
 
@@ -87,6 +89,56 @@ class Trades extends _Base {
         $stmt->bindValue(':today', $day, \PDO::PARAM_STR);
         $stmt->execute();
         return $stmt->fetchAll(\PDO::FETCH_ASSOC);
+    }
+
+    public function getRecords($pageNo = 1, $recordsPerPage = 50, $sortInfo = array('id ASC'))
+    {
+
+        $pdo = Database::getPDO();
+
+        $queryString = sprintf('
+          SELECT SQL_CALC_FOUND_ROWS
+            t.id,
+            t.userId,
+            CONCAT("Sell ", t.amountSell, " ", cf.country, " for ", t.amountBuy, " ", ct.country) AS overview,
+            cf.code AS currencyFrom,
+            ct.code AS currencyTo,
+            t.rate,
+            t.timePlaced,
+            oc.country AS originatingCountry
+          FROM
+            %s AS t
+          JOIN
+            iso4217 AS cf
+            ON t.currencyFrom = cf.id
+          JOIN
+            iso4217 AS ct
+            ON t.currencyTo = ct.id
+          JOIN
+            iso3166alpha2 AS oc
+            ON t.originatingCountry = oc.id
+          ORDER BY
+            %s
+          LIMIT %d, %d
+        ', $this->dbTable, join(",\n", $sortInfo), ($pageNo - 1), $recordsPerPage);
+
+        $stmt = $pdo->prepare($queryString);
+        $stmt->execute();
+
+        if ($stmt->errorCode() > 0)
+        {
+            return array(
+                'data' => null,
+                'total' => 0,
+                'errorMessage' => 'Couldn\'t handle your request, please check if the URL is valid.'
+            );
+        }
+
+        return array(
+            'data' => $stmt->fetchAll($pdo::FETCH_ASSOC),
+            'total' => $pdo->query('SELECT FOUND_ROWS()')->fetch($pdo::FETCH_COLUMN),
+        );
+
     }
 
 }
