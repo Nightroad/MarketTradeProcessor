@@ -98,7 +98,7 @@ class TradeController {
         $entity->setAmountSell(floatval($input['amountSell']));
         $entity->setAmountBuy(floatval($input['amountBuy']));
         $entity->setRate(floatval($input['rate']));
-        $entity->setTimePlaced(\DateTime::createFromFormat('y-M-d H:i:s', $input['timePlaced']));
+        $entity->setTimePlaced(\DateTime::createFromFormat('d-M-y H:i:s', $input['timePlaced']));
         $entity->setOriginatingCountry($input['originatingCountry']);
 
         return $entity;
