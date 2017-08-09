@@ -18,7 +18,6 @@ class InterfaceController {
         $twig = Template::getInstance()->getTwig();
         $twig->display('Main.twig', array(
             'title' => 'Market Trade Processor @ Najt.eu',
-            'message_processor_server' => CONFIG_MESSAGE_PROCESSOR_SERVER,
         ));
     }
 

@@ -1,11 +1,9 @@
 <Files *.php>
-    Order Deny,Allow
-    Deny from all
+    Require all denied
 </Files>
 
 <Files index.php>
-    Order Allow,Deny
-    Allow from all
+    Require all granted
 </Files>
 
 RewriteEngine On

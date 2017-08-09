@@ -105,7 +105,9 @@ class Trades extends _Base {
             ct.code AS currencyTo,
             t.rate,
             t.timePlaced,
-            oc.country AS originatingCountry
+            oc.country AS originatingCountry,
+            t.amountSell,
+            t.amountBuy
           FROM
             %s AS t
           JOIN

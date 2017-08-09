@@ -29,7 +29,8 @@ Ext.onReady(function(){
         },
         fields: [
             'id', 'userId', 'currencyFrom', 'currencyTo',
-            'timePlaced', 'tradeCurrency', 'overview'
+            'timePlaced', 'tradeCurrency', 'overview',
+            'amountSell', 'amountBuy'
         ],
         autoLoad: true,
         pageSize: 50,
@@ -42,7 +43,9 @@ Ext.onReady(function(){
         columns: [
             { text: 'User ID', dataIndex: 'userId', width: 60 },
             { text: 'Selling currency', dataIndex: 'currencyFrom'},
+            { text: 'Amount', dataIndex: 'amountSell'},
             { text: 'Buying currency', dataIndex: 'currencyTo'},
+            { text: 'Amount', dataIndex: 'amountBuy'},
             { text: 'Offer placed', dataIndex: 'timePlaced', width: 150},
             { text: 'Overview', dataIndex: 'overview', flex: 1},
         ],

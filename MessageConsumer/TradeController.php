@@ -10,6 +10,7 @@ namespace MarketTradeProcessor\MessageConsumer;
 
 use MarketTradeProcessor\MessageProcesor\Models\Trades;
 use MarketTradeProcessor\MessageProcesor\Entities\Trade;
+use MarketTradeProcessor\Shared\Template;
 
 
 class TradeController {
@@ -101,6 +102,15 @@ class TradeController {
         $entity->setOriginatingCountry($input['originatingCountry']);
 
         return $entity;
+    }
+
+    private static function showConsumeUsage()
+    {
+        $twig = Template::getInstance()->getTwig();
+        $twig->display('ConsumeMessage.twig', array(
+            'title' => 'Market Trade Processor @ Najt.eu',
+        ));
+
     }
 
 } 

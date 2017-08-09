@@ -3,3 +3,10 @@ body, html {
     padding: 0;
     font: normal 11px Tahoma, Verdana, Arial;
 }
+.center-container{
+    border: 1px solid #04408c;
+    background-color: #61a8dc;
+    width: 600px;
+    padding: 10px;
+    margin: 100px auto 0;
+}
